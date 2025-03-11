@@ -1,0 +1,60 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    text-align: center; /* Căn giữa nội dung văn bản */
+    width: 100%;
+    padding: 20px;
+}
+
+#ava {
+    margin-left: 20px;
+}
+
+nav {
+    margin-top: -20px;
+}
+
+#icon {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #b19cd9;
+    position:fixed;
+    top: 100px;
+    bottom: 80px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color:black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b19cd9;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

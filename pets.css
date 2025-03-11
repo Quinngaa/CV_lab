@@ -1,0 +1,81 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#pets {
+    display: flex;
+    align-items: center;
+}
+
+#icon {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+
+#content {
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-left: 53px;
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #b19cd9;
+    position:fixed;
+    top: 100px;
+    bottom: 80px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color:black;
+}
+
+#pic {
+    height: 200px;
+    width: 200px;
+}
+
+p {
+    margin-top: -5px;
+}
+
+#xam {
+    margin-left: 600px;
+    margin-top: -360px;
+}
+
+#chit {
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+#gau {
+    margin-left: 920px;
+    margin-top: -495px;
+}
+
+#ki {
+    margin-left: 920px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b19cd9;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
